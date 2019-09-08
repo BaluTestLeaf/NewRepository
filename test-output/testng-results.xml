@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14310" started-at="2019-09-08T11:01:04Z" finished-at="2019-09-08T11:01:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14310" started-at="2019-09-08T11:01:04Z" finished-at="2019-09-08T11:01:19Z">
+      <class name="org.testleaf.leaftaps.testcases.TC001_LoginLogout">
+        <test-method status="PASS" signature="setData()[pri:0, instance:org.testleaf.leaftaps.testcases.TC001_LoginLogout@5442a311]" name="setData" is-config="true" duration-ms="15" started-at="2019-09-08T11:01:04Z" finished-at="2019-09-08T11:01:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="startApp()[pri:0, instance:org.testleaf.leaftaps.testcases.TC001_LoginLogout@5442a311]" name="startApp" is-config="true" duration-ms="7844" started-at="2019-09-08T11:01:05Z" finished-at="2019-09-08T11:01:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="runTC001(java.lang.String, java.lang.String)[pri:0, instance:org.testleaf.leaftaps.testcases.TC001_LoginLogout@5442a311]" name="runTC001" duration-ms="798" started-at="2019-09-08T11:01:13Z" data-provider="fetchData" finished-at="2019-09-08T11:01:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTC001 -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:org.testleaf.leaftaps.testcases.TC001_LoginLogout@5442a311]" name="closeApp" is-config="true" duration-ms="125" started-at="2019-09-08T11:01:14Z" finished-at="2019-09-08T11:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="startApp()[pri:0, instance:org.testleaf.leaftaps.testcases.TC001_LoginLogout@5442a311]" name="startApp" is-config="true" duration-ms="3806" started-at="2019-09-08T11:01:14Z" finished-at="2019-09-08T11:01:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="runTC001(java.lang.String, java.lang.String)[pri:0, instance:org.testleaf.leaftaps.testcases.TC001_LoginLogout@5442a311]" name="runTC001" duration-ms="682" started-at="2019-09-08T11:01:18Z" data-provider="fetchData" finished-at="2019-09-08T11:01:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTC001 -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:org.testleaf.leaftaps.testcases.TC001_LoginLogout@5442a311]" name="closeApp" is-config="true" duration-ms="96" started-at="2019-09-08T11:01:18Z" finished-at="2019-09-08T11:01:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- org.testleaf.leaftaps.testcases.TC001_LoginLogout -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
